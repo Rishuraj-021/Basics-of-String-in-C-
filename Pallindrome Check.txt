@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    string a1,a2;
+    cout<<"Enter the string 1:"<<endl;
+    cin>>a1;
+    
+    int n1;
+    n1=a1.size();
+    
+    for(int i=0;i<n1;i++)
+    {
+        if(a1[i]!=a1[n1-i-1])
+        cout<<"Not Pallindrome"<<endl;
+        
+        else
+        cout<<"Pallindrome"<<endl;
+        break;
+        
+        
+    }
+    
+}
