@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    string a1,a2;
+    cout<<"Enter the string 1:"<<endl;
+    cin>>a1;
+    int n=a1.size();
+    cout<<"Reversed String:"<<endl;
+    for(int i=n-1;i>=0;i--)
+    {
+        cout<<a1[i];
+    }
+    
+    
+
+    }
